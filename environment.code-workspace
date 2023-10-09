@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../vs code/environment"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing page"
+	}
+}

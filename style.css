@@ -1,0 +1,111 @@
+body{
+    background-color: rgba(0,0,33);
+    color: white;
+
+}
+
+h1{
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 45%;
+}
+
+nav{
+    background-color: rgb(20,20,65);
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+nav ul li{
+    margin-top: 10px;
+    align-items: center;
+}
+
+nav ul a{
+            color: white;
+            cursor: pointer;
+            
+}
+
+nav ul a:hover{
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+.btn{
+    padding: 6px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+
+.akshays{
+    margin-left: 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.akshay{
+    margin-left: 15px;
+}
+
+
+hr{
+    height: 2px;
+    margin-top: 25px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.ten{
+    margin-top:-45px;
+    margin-left: 20px;
+}
+
+.SCHOOL{
+    color: blueviolet;
+    margin-left: 50%;
+}
+
+.ob{
+    color: blueviolet;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+
+.skill{
+    color: blueviolet;
+}
+
+.project{
+    color: blueviolet;
+    margin-top: 10px;
+}
+
+.about{
+    color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}

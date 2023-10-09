@@ -1,0 +1,313 @@
+body{
+    background-color: rgba(0,0,33);
+    color: white;
+
+}
+
+nav{
+    background-color:rgb( 20,20,65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgba(236, 230, 250, 0.423);
+    font-size: 1.10rem;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84;
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+    
+}
+.firstsection >div{
+    width: 30%;
+
+}
+rightsection div{
+    width: 30%;
+
+}
+.i{
+    width: 60px;
+    border-radius: 25px;
+}
+.leftsection{
+    font-size: 3rem;
+    
+}
+.leftsection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(208, 26, 26);
+}
+
+
+.rightsection img{
+    margin: 50px;
+    width: 80%;
+}
+
+.purple{
+    color: rgb(65, 8, 118);
+}
+
+#element{
+    color: rgb(65, 8, 118);
+} 
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second h1{
+    font-size: 1.9rem;
+}
+
+.second .box{
+background: white;
+width: 80vw;
+height: 2px;
+margin: 56px 0;
+display: flex;
+}
+.second .verticle{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0 140px;
+}
+
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.verticle-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 15px;
+
+}
+
+.verticle-des{ 
+position: relative;
+top: 86px;
+color: grey;
+width: 150px;
+font-size: 9px;
+
+}
+
+.textgrey{
+    color: grey;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+table{
+    width: 800px;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    color: white;
+}
+
+td{
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(18, 17, 17, 0.471);
+}
+
+tr{
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(18, 17, 17, 0.471);
+}
+th{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.696);
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+   }
+
+.img1,.img2{
+    width: 35%;
+
+}
+
+.img1:hover{
+    cursor: pointer;
+    
+}
+.img2:hover{
+    cursor: pointer;
+
+}
+.mySlides{
+    width: 600px;
+    height: 400px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 20px;
+    border: #9c97f1 solid 5px;
+}
+figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top:  10px;
+}
+
+.link{
+    height: 120px;
+}
+
+.fg{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.btn1{
+    padding: 12px;
+    height: 60px;
+    background-color: #1e2067e0;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer
+}
+
+.btn1:hover{
+    height: 65px;
+    width: 230px;
+}
+
+.p{
+    line-height: 40px;
+    font-size: 1.2rem;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.a{
+    display: flex;
+    justify-content: space-around;
+}
+
+.a1{
+    width: 60%;
+   font-size: 1.5rem;
+   margin-top: 60px;
+   line-height: 30px;
+}
+
+.a11{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+ }
+
+
+.a2{
+    width: 30%;
+}
+.AS{
+    width: 300px;
+    border-radius: 20px;
+    border: white solid 2px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #0e0e1a;
+    height: 233px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer> div{width: 125px;
+}
+
+.text{
+    text-align: center;
+    color: grey;
+}
+.footer .image-t{
+    width: 23px;
+    position: relative;
+    margin: 5PX;
+
+    
+
+}
